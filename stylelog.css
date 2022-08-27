@@ -1,0 +1,111 @@
+body{
+   
+    background-image: url(bb1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  
+  
+  
+  /* Style the header with a grey background and some padding */
+  .header {
+    overflow: hidden;
+    background-color: white;
+    padding: 20px;
+    position: sticky;
+    box-shadow: 4px 2px 16px rgba(0, 0, 0, 0.4);
+    position: sticky;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 25px;
+    border-radius: 4px;
+    position: sticky;
+    
+  }
+  
+  .btn {
+    background-color: white;
+    border: none;
+    padding: 1px;
+    justify-content: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: orangered;
+    box-shadow: 4px 2px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  
+  
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+    position: sticky;
+  }
+  
+  
+.login{
+    max-width: 450px;
+        min-height: 400px;
+        box-sizing:inherit;
+        background: white;
+        box-shadow: 4px 2px 16px rgba(0, 0, 0, 0.4);
+        border-radius: 8px;
+        margin:  20px auto 0 auto;
+        padding: 25px;
+        color: black;
+        font-size: large;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cm-input{
+    display: block;
+    box-sizing: border-box;
+    padding: 10px;
+    width: 100%; 
+    margin: 14px auto;
+    border-radius: 10px;
+    border: 2px solid rgb(24, 14, 152);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.btnl {
+    background-color: orangered;
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+    box-shadow: 4px 2px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  .btnl:hover {
+    border: solid 3px;
+  }
+  .reg a{
+    color: #1512b5;
+    text-decoration: none;
+  }
+  .reg a:hover{
+    color: rgb(29, 168, 255);
+    font-size:19px;
+  }
+ h2{
+    font-family: 'Mochiy Pop One';
+    font-size: xx-large;
+ }
+ 

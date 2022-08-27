@@ -1,0 +1,134 @@
+body{
+   
+    background-image: url(bb1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+
+/* Style the header with a grey background and some padding */
+.header {
+    overflow: hidden;
+    background-color: white;
+    padding: 20px;
+    position: sticky;
+    box-shadow: 4px 2px 16px rgba(0, 0, 0, 0.4);
+    position: sticky;
+  }
+  
+  /* Style the header links */
+  .header a {
+    float: left;
+    color: black;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 16px;
+    line-height: 25px;
+    border-radius: 4px;
+    position: sticky;
+    
+  }
+  
+  .btn {
+    background-color: white;
+    border: none;
+    padding: 1px;
+    justify-content: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    background-color: orangered;
+    box-shadow: 4px 2px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+
+  
+  
+  /* Float the link section to the right */
+  .header-right {
+    float: right;
+    position: sticky;
+  }
+
+.comp1{
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    flex-direction: row;
+
+}
+
+
+
+.image-list-small {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  max-width: 640px;
+  padding: 0;
+}
+.image-list-small li {
+  display: inline-block;
+  width: 170px;
+  margin: 0 12px 30px;
+  padding: 30px;
+}
+.image-list-small li > a {
+  display: block;
+  text-decoration: none;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 170px;
+  width: 150x;
+  margin: 0;
+  padding: 0;
+  border: 4px solid #ffffff;
+  outline: 1px solid #d0d0d0;
+  box-shadow: 0 2px 1px #DDD;
+  transition: .25s;
+  
+}
+.image-list-small li img{
+  width: 100%; /* To make the images responsive */
+  height: auto;
+}
+.image-list-small li > a:hover{
+  transform: scale(1.1);
+  transition: .25s;
+}
+.image-list-small .details {
+  margin-top: 13px;
+}
+.image-list-small .details h3 {
+  display: block;
+  font-size: 14px;
+  margin: 0 0 3px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.image-list-small .details h3 a {
+  color: black;
+  font-size: large;
+  text-decoration: none;
+}
+
+@media only screen and (max-wdith: 640px){
+  .image-list-small{
+     max-width: 100%;
+   }
+  .image-list-small li > a {
+     width: 50%;
+   }
+  }
+
+.abt{
+  font-family: 'Mochiy Pop One';
+  font-size: x-large;
+}
